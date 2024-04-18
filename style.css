@@ -60,6 +60,22 @@ header{
     padding: 0 0 0 42px;
     background: rgba(255,255,255,0.1);
 }
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 14px 0 0 35px;
+    background-color: #fff;
+    
+}
+
+
 i{
     position: relative;
     top: -31px;
