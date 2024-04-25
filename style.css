@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+.Index{
     background-image: url(./img/luna-tobytrading.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,7 +19,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-
+   
+    
 }
 
 .contenedor1{
@@ -27,10 +28,12 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
+   
+    
 }
 
 span{
-    color: #fff;
+    color: #fffefe;
     font-size: small;
     display: flex;
     justify-content: center;
@@ -53,22 +56,24 @@ header{
     margin: 10px 80px 10px 80px;
     height: 45px;
     width: 50%;
+
+ 
+    
+}
+.Inicio1{
+    font-size: 25px;
     border: none;
     outline: none;
-    border-radius: 20px;
-    color: #007bff;
-    padding: 13px 40px 20px 35px;
+    border-radius: 30px;
+    color: #050505;
+    padding: 18px;
     background-color: #fff;
     cursor: pointer;
     align-items: center;
     text-align: center;
-    
- 
-    
 }
-
-.Inicio:hover{
-    background-color: #90b1f8;
+.Inicio1:hover{
+    background-color: #66bbf3;
 }
 .Inicio::after{
   content: '';
@@ -80,6 +85,10 @@ header{
 .Inicio:hover::after{
     opacity: 1;
 }
+.Inicio a{
+    text-decoration: none;
+    color: #292828;
+}
 
     
 
@@ -89,19 +98,21 @@ header{
 
 /* Inicio html */
 .containerinicio1{
-    background-color: #fff;
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+   
 }
 
 .containerinicio1nav{
-    background:#28c1f0 ;
+    background:#dfe8eb ;
     border-radius: 50px;
     padding: 10px;
     box-shadow: 9 25px 20px -20px rgba(0, 0, 0, 0.4);
+    margin: 10px 0 auto 0;
+    
+    
 }
 .containerinicio1nav ul li{
     list-style: none;
@@ -114,13 +125,14 @@ header{
     cursor: pointer;
     position: relative;
     z-index: 2;
-    transition: color 0.4s;
+    transition: color 0.2s;
+    
     
 }
 
 .containerinicio1nav ul li::after{
     content:  ' ';
-    background: #000000;
+    background: #66bbf3;
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -130,5 +142,18 @@ header{
     transform: translate(-50%, -50%);
     z-index: -1;
     opacity: 0;
-
+    
+}
+.containerinicio1nav ul li:hover{
+    color: #fff;
+    
+}
+.containerinicio1nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+    
+}
+.containerinicio1nav a{
+    text-decoration: none;
+    color: #292828;
 }
