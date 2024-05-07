@@ -1,0 +1,89 @@
+
+
+.Index{
+    background-image: url(./img/luna-tobytrading.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+   
+    
+}
+
+.contenedor1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+   
+    
+}
+
+span{
+    color: #fffefe;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+
+}
+
+
+
+
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px 10px 80px;
+    height: 45px;
+    width: 50%;
+
+ 
+    
+}
+.Inicio1{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #050505;
+    padding: 18px;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.Inicio1:hover{
+    background-color: #66bbf3;
+}
+.Inicio::after{
+  content: '';
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.Inicio:hover::after{
+    opacity: 1;
+}
+.Inicio a{
+    text-decoration: none;
+    color: #292828;
+}
+
+    
+@import "./contenedoresnav/scss";
+@import "./header/scss";
+@import "./all/scss";
+
+
+
+
