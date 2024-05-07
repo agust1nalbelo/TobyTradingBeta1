@@ -1,0 +1,62 @@
+.TForex1{
+    text-align: center;
+    color: white;
+    text-shadow: $sombra;
+    font-size: 50px;
+
+}
+.T2forex-div{
+    margin: 15px;
+    text-align: center;
+    
+    .h2forex1{
+        text-align:center ;
+        color: white;
+        padding: 5px;
+        background-color: $color-secundario;
+        text-shadow: $sombra;
+        border-radius: 5px 5px 0px 0px;
+        border-bottom: 0;
+    }
+    .p2forex1{
+        color: white;
+        padding: 5px;
+        background-color: $color-contraste;
+        text-shadow: $sombra;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+.T3forex-div{
+    margin: 15px;
+    text-align: center;
+    .h3forex1{
+        color: white;
+        padding: 5px;
+        background-color: $color-secundario;
+        text-shadow: $sombra;
+        border-radius: 5px 5px 0px 0px;
+        border-bottom: 0;
+    }
+    .p3forex1{
+        color: white;
+        padding: 5px;
+        background-color: $color-contraste;
+        text-shadow: $sombra;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+.T4forex-div{
+    text-align: center;
+    margin: 20px;
+    .h4forex1{
+        font-size: 40px;
+        color: white;
+        text-shadow: $sombra;
+    }
+}
+.img-forex-div p{
+    font-size: 25px;
+    color: white;
+    text-shadow: $sombra;
+    text-align: center;
+}

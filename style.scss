@@ -78,11 +78,16 @@ span{
     text-decoration: none;
     color: #292828;
 }
+.body-forex{
+    background-color: #00254E;
+}
+@import "./scss/general";    
+@import "./scss/contenedoresnav";
+@import "./scss/header";
+@import "./scss/variables";
+@import "./scss/letras";
+@import "./scss/imagenes";
 
-    
-@import "./contenedoresnav/scss";
-@import "./header/scss";
-@import "./all/scss";
 
 
 

@@ -1,10 +1,3 @@
-* {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .Index {
   background-image: url(./img/luna-tobytrading.jpg);
   background-size: cover;
@@ -33,14 +26,6 @@ span {
   display: flex;
   justify-content: center;
   padding: 10px 0 15px 0;
-}
-
-header {
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  padding: 0 0 15px 0;
 }
 
 .Inicio {
@@ -85,7 +70,21 @@ header {
   color: #292828;
 }
 
-/* Inicio */
+.body-forex {
+  background-color: #00254E;
+}
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-forex {
+  color: #00254E;
+}
+
 .containerinicio1 {
   display: flex;
   justify-content: center;
@@ -140,4 +139,89 @@ header {
 .containerinicio1nav a {
   text-decoration: none;
   color: #292828;
+}
+
+header {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 15px 0;
+}
+
+.TForex1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 50px;
+}
+
+.T2forex-div {
+  margin: 15px;
+  text-align: center;
+}
+.T2forex-div .h2forex1 {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background-color: #5D83B1;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 0;
+}
+.T2forex-div .p2forex1 {
+  color: white;
+  padding: 5px;
+  background-color: #565651;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.T3forex-div {
+  margin: 15px;
+  text-align: center;
+}
+.T3forex-div .h3forex1 {
+  color: white;
+  padding: 5px;
+  background-color: #5D83B1;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 0;
+}
+.T3forex-div .p3forex1 {
+  color: white;
+  padding: 5px;
+  background-color: #565651;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.T4forex-div {
+  text-align: center;
+  margin: 20px;
+}
+.T4forex-div .h4forex1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.img-forex-div p {
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+
+.img-forex-div {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-forex-div img {
+  width: 600px;
+  height: 600px;
 }/*# sourceMappingURL=style.css.map */
